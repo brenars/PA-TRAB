@@ -6,7 +6,7 @@
 class Retangulo: public Poligono
 {
 private:
-    float altura,largura,x,y; //x e y sao coord. do vertice superior esquerdo do retangulo
+    float altura,largura, x, y;
     Point CdM;
 
 public:
