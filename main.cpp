@@ -17,15 +17,15 @@ int main()
     Point CdM = ret.getCdM();// centro de massa do ret
 
 
-    ret.imprimepol();
+    ret.print_poli();
     cout << "Area:" <<ret.area() << endl;
     ret.translada(-3,4);
 
 
-    ret.imprimepol();
+    ret.print_poli();
     cout << "Area:" <<ret.area() << endl;
     ret.rotaciona(M_PI/6,CdM);
-    ret.imprimepol();
+    ret.print_poli();
     cout << "Area:" <<ret.area() << endl;
 
     cout << "numero de vertices ret:" <<ret.getv() << endl;
